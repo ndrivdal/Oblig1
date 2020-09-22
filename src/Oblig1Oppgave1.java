@@ -12,5 +12,6 @@ public class Oblig1Oppgave1 {
 
        Tips : String.format("%.2f",desimalverdi); for å formatere to desimaler
     */
+
     }
 }
