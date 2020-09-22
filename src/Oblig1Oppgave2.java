@@ -28,14 +28,14 @@ public class Oblig1Oppgave2 {
 
                 Vare vare1 = new Vare();
                 vare1.navn= innNavn;
-                vare1.antall= innAntall;
+                vare1.antall= antall;
                 vare1.pris = pris;
 
             // les inn navn, antall og pris for vare 2
 
                 Vare vare2 = new Vare();
                 vare2.navn= innNavn;
-                vare2.antall= innAntall;
+                vare2.antall= antall;
                 vare2.pris = pris;
 
             // bruk avvikshåntering (try/catch) for å konvertere
