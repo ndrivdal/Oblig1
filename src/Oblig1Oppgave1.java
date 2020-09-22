@@ -17,7 +17,7 @@ public class Oblig1Oppgave1 {
     */
         double diameter = Sirkel.diameter(radius);
         String diameterMed2Desimaler = String.format("%.2f", diameter);
-        System.out.println(" Diameteren til sirkelen er med radius "+radius+" er "+diameter);
+        System.out.println(" Diameteren til sirkelen er med radius "+radius+" er "+diameterMed2Desimaler);
 
         double areal = Sirkel.areal(radius);
         String arealMed2Desimaler = String.format("%.2f", areal);
