@@ -1,10 +1,9 @@
-import javax.swing.*;
-import java.util.jar.JarOutputStream;
+import static javax.swing.JOptionPane.*;
 
 public class Oblig1Oppgave1 {
     public static void main(String[] args) {
         //  Sett en variabel lik en verdi for radius
-    double radius = Double.parseDouble(JOptionPane.showInputDialog("SKriv inn radius: "));
+    double radius = Double.parseDouble(showInputDialog("Skriv inn radius: "));
 
     /* Kall så de statiske metodene i sirkel-klassen for å vise følgende på
        System.out (gitt radius lik 23.5)
