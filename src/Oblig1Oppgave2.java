@@ -48,13 +48,13 @@ public class Oblig1Oppgave2 {
 
         // opprett to vare-objekter med de innleste verdiene
         Vare vare1 = new Vare();
-        vare1.navn= innNavn1;
-        vare1.antall= antall1;
+        vare1.navn = innNavn1;
+        vare1.antall = antall1;
         vare1.pris = pris1;
 
         Vare vare2 = new Vare();
-        vare2.navn= innNavn2;
-        vare2.antall= antall2;
+        vare2.navn = innNavn2;
+        vare2.antall = antall2;
         vare2.pris = pris2;
 
 
