@@ -2,6 +2,7 @@ public class Oblig1Oppgave2 {
 
 
         public static void main(String[] args){
+                
             // les inn navn, antall og pris for vare 1
 
             // les inn navn, antall og pris for vare 2
