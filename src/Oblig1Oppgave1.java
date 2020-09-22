@@ -1,9 +1,10 @@
-import static javax.swing.JOptionPane.*;
+import javax.swing.*;
+import java.util.jar.JarOutputStream;
 
 public class Oblig1Oppgave1 {
     public static void main(String[] args) {
         //  Sett en variabel lik en verdi for radius
-    double radius = Double.parseDouble(showInputDialog("Skriv inn radius: "));
+    double radius = Double.parseDouble(JOptionPane.showInputDialog("Skriv inn radius: "));
 
     /* Kall så de statiske metodene i sirkel-klassen for å vise følgende på
        System.out (gitt radius lik 23.5)
@@ -16,7 +17,7 @@ public class Oblig1Oppgave1 {
     */
         double diameter = Sirkel.diameter(radius);
         String diameterMed2Desimaler = String.format("%.2f", diameter);
-        System.out.println(" Diameteren til sirkelen er med radius "+radius+" er "+diameter);
+        System.out.println(" Diameteren til sirkelen er med radius "+radius+" er "+diameterMed2Desimaler);
 
         double areal = Sirkel.areal(radius);
         String arealMed2Desimaler = String.format("%.2f", areal);
