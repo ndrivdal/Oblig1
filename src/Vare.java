@@ -9,4 +9,6 @@ public class Vare {
     // antall og pris må være større enn null
 
     // metode for å beregne totalpris (pris * antall)
+
+    // Halla
 }
