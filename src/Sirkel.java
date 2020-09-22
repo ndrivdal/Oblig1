@@ -1,6 +1,9 @@
 public class Sirkel {
     // Statisk metode som beregner og returnerer sirkelens diameter.
-
+    public static double diameter(double radius) {
+        double utDiameter = radius*2;
+        return utDiameter;
+    }
 
     // Statisk metode som beregner og returnerer sirkelens omkrets.
     // Omkrets = 2*pi*r
