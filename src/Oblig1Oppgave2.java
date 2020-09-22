@@ -3,8 +3,8 @@ import static javax.swing.JOptionPane.*;
 public class Oblig1Oppgave2 {
     public static void main(String[] args){
 
-        //String innNavn = showInputDialog("Skriv inn navn på vare");
-        //String innAntall = showInputDialog("Skriv inn antall varer");
+        /*String innNavn = showInputDialog("Skriv inn navn på vare");
+        String innAntall = showInputDialog("Skriv inn antall varer");
         int antall = 0;
         try{
             Integer.parseInt(innAntall);
@@ -21,19 +21,7 @@ public class Oblig1Oppgave2 {
         catch (Exception e){
             pris = 0;
         }
-
-
-        Vare vare1 = new Vare();
-        vare1.navn= innNavn;
-        vare1.antall= antall;
-        vare1.pris = pris;
-
-        Vare vare2 = new Vare();
-        vare2.navn= innNavn;
-        vare2.antall= antall;
-        vare2.pris = pris;
-
-
+        */
 
 
         // les inn navn, antall og pris for vare 1
@@ -48,7 +36,6 @@ public class Oblig1Oppgave2 {
 
         // bruk avvikshåntering (try/catch) for å konvertere
         // antall og pris for vare 1 og vare 2
-        // String navn1, navn2;
         int antall1, antall2;
         double pris1, pris2;
 
@@ -81,6 +68,16 @@ public class Oblig1Oppgave2 {
         }
 
         // opprett to vare-objekter med de innleste verdiene
+        Vare vare1 = new Vare();
+        vare1.navn= innNavn1;
+        vare1.antall= antall1;
+        vare1.pris = pris1;
+
+        Vare vare2 = new Vare();
+        vare2.navn= innNavn2;
+        vare2.antall= antall2;
+        vare2.pris = pris2;
+
 
         // beregn og skriv ut total pris for alle varer i System.out
         double totalPris = vare1.totalPris() + vare2.totalPris();
