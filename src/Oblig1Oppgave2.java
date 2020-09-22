@@ -2,28 +2,6 @@ import static javax.swing.JOptionPane.*;
 
 public class Oblig1Oppgave2 {
     public static void main(String[] args){
-
-        /*String innNavn = showInputDialog("Skriv inn navn på vare");
-        String innAntall = showInputDialog("Skriv inn antall varer");
-        int antall = 0;
-        try{
-            Integer.parseInt(innAntall);
-        }
-        catch (Exception e){
-            antall = 0;
-        }
-
-        String innPris = showInputDialog("Skriv inn en pris");
-        int pris = 0;
-        try{
-            Integer.parseInt(innPris);
-        }
-        catch (Exception e){
-            pris = 0;
-        }
-        */
-
-
         // les inn navn, antall og pris for vare 1
         String innNavn1 = showInputDialog("Skriv inn navn på vare 1");
         String innAntall1 = showInputDialog("Skriv inn antall varer");
