@@ -1,8 +1,6 @@
 import javax.swing.*;
 
 public class Oblig1Oppgave2 {
-
-
         public static void main(String[] args){
                 
                 String innNavn= JOptionPane.showInputDialog("Skriv inn et navn");
@@ -15,7 +13,7 @@ public class Oblig1Oppgave2 {
                         antall = 0;
                 }
 
-                String innPris= JOptionPane.showInputDialog("SKriv inn en pris");
+                String innPris= JOptionPane.showInputDialog("Skriv inn en pris");
                 int pris;
                 try{
                         Integer.parseInt(innPris);
