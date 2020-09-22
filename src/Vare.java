@@ -5,6 +5,7 @@ public class Vare {
 
     // Konstruktør med alle attributter
 
+
     // get / set metoder
     // antall og pris må være større enn null
 
