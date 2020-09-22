@@ -47,16 +47,8 @@ public class Oblig1Oppgave2 {
         }
 
         // opprett to vare-objekter med de innleste verdiene
-        Vare vare1 = new Vare();
-        vare1.navn = innNavn1;
-        vare1.antall = antall1;
-        vare1.pris = pris1;
-
-        Vare vare2 = new Vare();
-        vare2.navn = innNavn2;
-        vare2.antall = antall2;
-        vare2.pris = pris2;
-
+        Vare vare1 = new Vare(innNavn1, antall1, pris1);
+        Vare vare2 = new Vare(innNavn2, antall2, pris2);
 
         // beregn og skriv ut total pris for alle varer i System.out
         double totalPris = vare1.totalPris() + vare2.totalPris();
