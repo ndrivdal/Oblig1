@@ -5,21 +5,18 @@ public class Vare {
 
     // Konstruktør med alle attributter
 
-    public Vare(String vareNavn, int vareAntall, double varePris) {
-        this.navn = vareNavn;
-        this.antall = vareAntall;
-        this.pris = varePris;
+    public Vare(String navn, int antall, double pris) {
+        this.navn = navn;
+        this.antall = antall;
+        this.pris = pris;
     }
 
     // get / set metoder
     // antall og pris må være større enn null
 
+    //SET
     public void setNavn(String navn) {
         this.navn = navn;
-    }
-
-    public String getNavn() {
-        return navn;
     }
 
     public void setPris(double pris) {
@@ -27,34 +24,25 @@ public class Vare {
             this.pris = pris;
         }
     }
-    public double getPris() {
-        return pris;
-    }
 
     public void setAntall(int antall){
         if (antall >0){
             this.antall=antall;
         }
     }
+
+    //GET
+    public String getNavn() {
+        return navn;
+    }
+
     public int getAntall() {
         return antall;
     }
 
-    // Set
-    public void setNavn(String innNavn) {
-        navn = innNavn;
+    public double getPris() {
+        return pris;
     }
-    public void setPris(double innPris) {
-        pris = innPris;
-    }
-    public void setAntall(int innAntall) {
-        antall = innAntall;
-    }
-
-
-
-    // antall og pris må være større enn null
-
 
 
     // metode for å beregne totalpris (pris * antall)
