@@ -52,7 +52,7 @@ public class Oblig1Oppgave2 {
 
         // beregn og skriv ut total pris for alle varer i System.out
         double totalPris = vare1.totalPris() + vare2.totalPris();
-        System.out.println(totalPris);
+        System.out.println("Totalprisen ble: " + totalPris + " kr");
     }
 
 }
