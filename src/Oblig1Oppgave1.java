@@ -9,14 +9,14 @@ public class Oblig1Oppgave1 {
         //  Tips : String.format("%.2f",desimalverdi); for å formatere to desimaler
     double diameter = Sirkel.diameter(radius);
     String diameterMed2Desimaler = String.format("%.2f", diameter);
-    System.out.println(" Diameteren til sirkelen er med radius "+radius+" er "+diameterMed2Desimaler);
+    System.out.println("Diameteren til sirkelen med radius " + radius + " er " + diameterMed2Desimaler);
 
     double areal = Sirkel.areal(radius);
     String arealMed2Desimaler = String.format("%.2f", areal);
-    System.out.println("Arealet av sirkelen med radius "+radius+" er "+arealMed2Desimaler);
+    System.out.println("Arealet til sirkelen med radius " + radius + " er " + arealMed2Desimaler);
 
     double omkrets = Sirkel.omkrets(radius);
     String omkretsenMed2Desimaler = String.format("%.2f", omkrets);
-    System.out.println("Omkretsen av sirkelen med radius "+radius+" er "+omkretsenMed2Desimaler);
+    System.out.println("Omkretsen til sirkelen med radius " + radius + " er " + omkretsenMed2Desimaler);
     }
 }
