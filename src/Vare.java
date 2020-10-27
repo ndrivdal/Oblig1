@@ -6,6 +6,8 @@ public class Vare {
     // Konstruktør med alle attributter
 
     public Vare(String navn, int antall, double pris) {
+        //set() metodene blir ikke brukt så if checkene der blir heller ikke brukt,
+        // kall på set() metodene i konstruktøren for å fikse dette Ellers alt bra
         this.navn = navn;
         this.antall = antall;
         this.pris = pris;
